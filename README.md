@@ -1,5 +1,10 @@
 # 🎨 Inspira - Sanat Galerisi Üye Kayıt ve Giriş Sistemi
 Bu proje, sanat galerisi sitesi için geliştirilmiş basit bir kullanıcı kayıt ve giriş sistemi içermektedir. Kullanıcılar siteye kayıt olabilir, giriş yapabilir, sepetlerine ürün ekleyebilir bu ürünleri silebilir ve oturumlarını yönetebilir.
+## 🔗 Proje Adresi
+📍 Canlı Demo :http://95.130.171.20/~st23360859057
+📺 Tanıtım Videosu (YouTube)
+
+
 ## 🛠 Kullanılan Teknolojiler
 - PHP 
 
@@ -49,11 +54,11 @@ CREATE TABLE bilgiler (
 );
 ```
 ## Ekran Görüntüleri
-** 1.Giriş Yapma Ekranı **
+**1.Giriş Yapma Ekranı**
 ![image](https://github.com/user-attachments/assets/9f9b94f3-42ce-4db6-b38d-519dd191513a)
-2.Üye Olma Ekranı
+**2.Üye Olma Ekranı**
 ![image](https://github.com/user-attachments/assets/df05c53b-d96d-49e5-bf3c-c45734f13fa6)  
-3.Bilgi Düzenleme Ekranı  
+**3.Bilgi Düzenleme Ekranı**  
 ![image](https://github.com/user-attachments/assets/d2697c08-7c6e-4f34-a0c5-ed229560d24c)
 
 
