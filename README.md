@@ -10,6 +10,18 @@ Bu proje, sanat galerisi sitesi için geliştirilmiş basit bir kullanıcı kay�
 - Bootstrap 5.3.6
 
 - XAMPP (geliştirme ortamı)
+## 🚀 Özellikler
+✅ Kullanıcı kayıt (isim, soyisim, e-posta, şifre)
+
+✅ Giriş ve çıkış sistemi (oturum yönetimi)
+
+✅ Kullanıcı bilgilerini güncelleme
+
+✅ Basit ve güvenli veritabanı bağlantısı
+
+✅ Şifrelerin güvenli saklanması (password_hash ile)
+
+✅ Responsive tasarım (Bootstrap veya benzeri CSS framework ile)
 ## 🧮 Veritabanı Yapısı
 Veritabanı Adı: inspira_db  
 Tablo Adı: users  
@@ -36,3 +48,5 @@ CREATE TABLE bilgiler (
     FOREIGN KEY (kullanici_id) REFERENCES users(id) ON DELETE CASCADE
 );
 ```
+## Ekran Görüntüleri
+
