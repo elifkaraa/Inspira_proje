@@ -58,17 +58,17 @@ CREATE TABLE bilgiler (
     FOREIGN KEY (kullanici_id) REFERENCES users(id) ON DELETE CASCADE
 );
 ```
-**3.Veritabanı Bağlantı Ayarları**
+**3.Veritabanı Bağlantı Ayarları**  
 baglanti.php dosyasındaki veritabanı sunucu, kullanıcı adı, parola ve veritabanı adını kendi hosting bilgilerinizle güncelleyin.
 
-**4.Siteyi Çalıştırma**
+**4.Siteyi Çalıştırma**  
 Web tarayıcınızdan domain veya localhost adresine giderek kayıt ve giriş işlemlerini test edin.
 ## Ekran Görüntüleri
-**1.Giriş Yapma Ekranı**
+**📌 Giriş Yapma Ekranı**
 ![image](https://github.com/user-attachments/assets/9f9b94f3-42ce-4db6-b38d-519dd191513a)
-**2.Üye Olma Ekranı**
+**📌 Üye Olma Ekranı**
 ![image](https://github.com/user-attachments/assets/df05c53b-d96d-49e5-bf3c-c45734f13fa6)  
-**3.Bilgi Düzenleme Ekranı**  
+**📌 Bilgi Düzenleme Ekranı**  
 ![image](https://github.com/user-attachments/assets/d2697c08-7c6e-4f34-a0c5-ed229560d24c)
 
 
