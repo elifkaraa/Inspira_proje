@@ -23,3 +23,14 @@ CREATE TABLE users (
     kullanici_turu VARCHAR(50) DEFAULT 'normal',
     kayit_tarihi TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+Tablo Adı: bilgiler
+```sql
+CREATE TABLE bilgiler (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    kullanici_id INT NOT NULL,
+    adres VARCHAR(255),
+    telefon VARCHAR(20),
+    dogum_tarihi DATE,
+    kayit_tarihi TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (kullanici_id) REFERENCES users(id) ON DELETE CASCADE
+);
