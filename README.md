@@ -49,4 +49,7 @@ CREATE TABLE bilgiler (
 );
 ```
 ## Ekran Görüntüleri
+1.Giriş Yapma Ekranı
+![image](https://github.com/user-attachments/assets/9f9b94f3-42ce-4db6-b38d-519dd191513a)
+
 
