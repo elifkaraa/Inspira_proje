@@ -72,7 +72,7 @@ Web tarayıcınızdan domain veya localhost adresine giderek kayıt ve giriş i�
 ![image](https://github.com/user-attachments/assets/d2697c08-7c6e-4f34-a0c5-ed229560d24c)
 ## 👩‍💻 İletişim  
 
-Proje hakkında sorularınız veya önerileriniz için benimle iletişime geçebilirsiniz:
+Proje hakkında sorularınız veya önerileriniz için benimle iletişime geçebilirsiniz:   
  **E-posta:** eliiffkaraa@icloud.com
 
 
