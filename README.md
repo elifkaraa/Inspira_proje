@@ -23,6 +23,7 @@ CREATE TABLE users (
     kullanici_turu VARCHAR(50) DEFAULT 'normal',
     kayit_tarihi TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
 Tablo Adı: bilgiler
 ```sql
 CREATE TABLE bilgiler (
@@ -34,3 +35,4 @@ CREATE TABLE bilgiler (
     kayit_tarihi TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (kullanici_id) REFERENCES users(id) ON DELETE CASCADE
 );
+```
