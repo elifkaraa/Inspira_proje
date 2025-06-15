@@ -11,8 +11,8 @@ Bu proje, sanat galerisi sitesi için geliştirilmiş basit bir kullanıcı kay�
 
 - XAMPP (geliştirme ortamı)
 ## 🧮 Veritabanı Yapısı
-Veritabanı Adı: inspira_db
-Tablo Adı: users
+Veritabanı Adı: inspira_db  
+Tablo Adı: users  
 ```sql
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
