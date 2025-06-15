@@ -27,7 +27,12 @@ Bu proje, sanat galerisi sitesi için geliştirilmiş basit bir kullanıcı kay�
 ✅ Şifrelerin güvenli saklanması (password_hash ile)
 
 ✅ Responsive tasarım (Bootstrap veya benzeri CSS framework ile)
-## 🧮 Veritabanı Yapısı
+## 🧑‍💻 Kurulum ve Çalıştırma
+**1. Proje Dosyalarının Yüklenmesi**
+Proje dosyalarını FTP veya dosya yöneticisi aracılığıyla hosting sunucunuzun public_html/ veya uygun web kök dizinine yükleyin.
+
+**2.Veritabanı Oluşturma**
+Hosting panelinizde veya phpMyAdmin aracılığıyla aşağıda verilen tabloları içeren veritabanını oluşturun.
 Veritabanı Adı: inspira_db  
 Tablo Adı: users  
 ```sql
@@ -53,6 +58,11 @@ CREATE TABLE bilgiler (
     FOREIGN KEY (kullanici_id) REFERENCES users(id) ON DELETE CASCADE
 );
 ```
+**3.Veritabanı Bağlantı Ayarları**
+baglanti.php dosyasındaki veritabanı sunucu, kullanıcı adı, parola ve veritabanı adını kendi hosting bilgilerinizle güncelleyin.
+
+**4.Siteyi Çalıştırma**
+Web tarayıcınızdan domain veya localhost adresine giderek kayıt ve giriş işlemlerini test edin.
 ## Ekran Görüntüleri
 **1.Giriş Yapma Ekranı**
 ![image](https://github.com/user-attachments/assets/9f9b94f3-42ce-4db6-b38d-519dd191513a)
